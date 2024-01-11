@@ -91,3 +91,32 @@
 span {
   margin-left: 16px;
 }
+
+.post-btn {
+  width: 90%;
+  align-items: stretch;
+  background-color: #1d9bf0;
+  color: #fff;
+  border: 0 solid rgba(0, 0, 0, 0);
+  display: flex !important;
+  flex-basis: auto;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+.btn-radius {
+  border-bottom-left-radius: 9999px;
+  border-bottom-right-radius: 9999px;
+  border-top-left-radius: 9999px;
+  border-top-right-radius: 9999px;
+}
+
+.post-btn-text {
+  font: 700 15px/20px Helvetica, Arial, sans-serif;
+  min-width: 52px;
+  min-height: 52px;
+  align-items: center;
+}

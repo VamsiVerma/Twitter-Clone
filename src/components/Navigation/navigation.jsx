@@ -5,6 +5,10 @@ import { SidebarData } from "./sidebar";
 import "./navigation.css";
 import { IconContext } from "react-icons";
 
+const postBtnClick = () => {
+  alert("post button clicked");
+};
+
 function Navigation() {
   return (
     <React.Fragment>
@@ -17,16 +21,23 @@ function Navigation() {
               </Link>
             </li>
 
-            {SidebarData.map((item, index) => {
-              return (
-                <li key={index} className={item.cName}>
-                  <Link to={item.path}>
-                    {item.icon}
-                    <span>{item.title}</span>
-                  </Link>
-                </li>
-              );
-            })}
+            <div className="my-1">
+              {SidebarData.map((item, index) => {
+                return (
+                  <li key={index} className={item.cName}>
+                    <Link to={item.path}>
+                      {item.icon}
+                      <span>{item.title}</span>
+                    </Link>
+                  </li>
+                );
+              })}
+            </div>
+            <div className="my-1 d-flex">
+              <button className="post-btn btn-radius" onClick={postBtnClick}>
+                <span className="post-btn-text d-flex">Post</span>
+              </button>
+            </div>
           </ul>
         </nav>
       </IconContext.Provider>
