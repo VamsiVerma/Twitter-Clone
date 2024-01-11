@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.nav-bar {
+  padding: 0 2rem;
+  flex-basis: 30%;
+}
+
+#newsfeed {
+  flex-basis: 40%;
+}
+
+#footer {
+  flex-basis: 30%;
+}
