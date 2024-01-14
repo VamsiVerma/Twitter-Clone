@@ -14,12 +14,12 @@ function Footer() {
 
   return (
     <div className="d-flex flex-column">
-      <section id="searchBar" className="search-bar">
+      <div id="searchBar" className="search-bar">
         <div className="search-bar-container d-flex flex-column">
           <SearchBar setResults={setResults} />
           <SearchResultsList results={results} />
         </div>
-      </section>
+      </div>
     </div>
   );
 }

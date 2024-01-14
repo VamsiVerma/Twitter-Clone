@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { IoSearch } from "react-icons/io5";
+import { AiFillCloseCircle } from "react-icons/ai";
 import "./SearchBar.css";
 
 export const SearchBar = ({ setResults }) => {
@@ -26,16 +27,23 @@ export const SearchBar = ({ setResults }) => {
     fetchSearchData(value);
   };
 
+  const handleClear = () => {
+    setInput("");
+  };
+
   return (
     <div className="input-wrapper">
-      <div className="search-icon position-relative">
-        <IoSearch id="search-icon" />
-      </div>
+      <IoSearch id="search-icon" />
+
       <input
+        id="search-bar"
         placeholder="Search"
         value={input}
         onChange={(e) => handleChange(e.target.value)}
       />
+      <span className="clear" onClick={handleClear}>
+        <AiFillCloseCircle id="close-icon" />
+      </span>
     </div>
   );
 };
