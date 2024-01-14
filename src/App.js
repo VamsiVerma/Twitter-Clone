@@ -60,15 +60,9 @@ const router = createBrowserRouter([
 
 const App = () => {
   return (
-    <div id="container" className={`d-flex p-4`}>
+    <div id="container" className={`p-4`}>
       <div id="nav-bar" className={`nav-bar`}>
         <RouterProvider router={router} />
-      </div>
-      <div id="newsfeed" className={`m-2 flex-column`}>
-        News Feed
-      </div>
-      <div id="footer" className={`m-2 flex-column`}>
-        footer
       </div>
     </div>
   );

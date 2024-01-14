@@ -1,0 +1,16 @@
+.search-bar {
+  background-color: grey;
+  height: 30vh;
+  width: 30vw;
+}
+
+.search {
+  width: 260px;
+  border: 1px solid red;
+  display: block;
+  background: transparent url("../../../public/icons/search.svg") no-repeat 13px;
+}
+
+.search-bar-container {
+  text-align: center;
+}
