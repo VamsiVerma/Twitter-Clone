@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./footer.css";
 import { SearchBar } from "../searchBar/SearchBar";
+import { LuMoreHorizontal } from "react-icons/lu";
 import { SearchResultsList } from "../SearchResults/SearchResultsList";
 
 function Footer() {
@@ -81,6 +82,7 @@ function Footer() {
           </a>
           <a className="links" href="#">
             More
+            <LuMoreHorizontal />
           </a>
           <span>@2024 X Corp</span>
         </nav>
