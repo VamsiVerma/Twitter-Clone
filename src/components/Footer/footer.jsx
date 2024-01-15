@@ -4,13 +4,11 @@ import { SearchBar } from "../searchBar/SearchBar";
 import { SearchResultsList } from "../SearchResults/SearchResultsList";
 
 function Footer() {
-  // const [searchInput, setSearchInput] = useState("");
   const [results, setResults] = useState([]);
 
-  // const handleChange = (e) => {
-  //   e.preventDefault();
-  //   setSearchInput(e.target.value);
-  // };
+  const subBtnClick = () => {
+    alert("Subscribe button clicked");
+  };
 
   return (
     <div className="d-flex flex-column">
@@ -35,7 +33,7 @@ function Footer() {
             </span>
           </div>
           <div className="d-flex">
-            <button className="btn-radius sub-btn">
+            <button className="btn-radius sub-btn" onClick={subBtnClick}>
               <span className="d-flex spData">Subscribe</span>
             </button>
           </div>
@@ -46,10 +44,3 @@ function Footer() {
 }
 
 export default Footer;
-
-// <div id="premium-section" className="bg-light m-2">
-//       //   premium notification
-//       // </div>
-// <div id="footer" className="bg-light m-2">
-//   footer section
-// </div>
