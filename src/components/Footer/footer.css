@@ -1,9 +1,56 @@
+span {
+  margin: 0;
+}
+
+span,
+.spData {
+  margin-left: 0;
+}
+
+.footer-border {
+  border: 2px solid #f7f9f9;
+}
+
 .search-bar-container {
   text-align: center;
-  width: 336px;
+  width: 360px;
+  top: 0;
+  margin-bottom: 16px;
   z-index: 5;
 }
 
 .premium-notification {
-  position: fixed;
+  position: absolute;
+  top: 86px;
+  border-radius: 16px;
+  width: 24%;
+}
+
+.spheading {
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.sp-container {
+  padding: 16px 12px;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.sp-content {
+  font: 400 15px/20px Helvetica, Arial, sans-serif;
+  text-overflow: unset;
+  word-wrap: break-word;
+  margin-left: 0 !important;
+}
+
+.sub-btn {
+  padding: 8px 16px;
+  color: #fff;
+  text-overflow: unset;
+  text-align: center;
+  flex-direction: row;
+  font: 700 15px/20px Helvetica, Arial, sans-serif;
+  border: 0 solid black;
+  background-color: rgb(15, 20, 25);
 }

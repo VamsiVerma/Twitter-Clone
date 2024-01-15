@@ -32,7 +32,7 @@ export const SearchBar = ({ setResults }) => {
   };
 
   return (
-    <div className="input-wrapper">
+    <div className="input-wrapper footer-border">
       <IoSearch id="search-icon" />
 
       <input
