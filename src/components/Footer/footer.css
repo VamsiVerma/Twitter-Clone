@@ -7,7 +7,7 @@ span,
   margin-left: 0;
 }
 
-.w-100 {
+.w-full {
   width: 80%;
 }
 
@@ -75,4 +75,20 @@ span,
   position: relative;
   max-height: 280px;
   height: auto;
+}
+
+.footer-content {
+  font: 400 13px/16px Helvetica, Arial, sans-serif;
+  color: #536571;
+}
+
+.links {
+  padding-right: 12px;
+  margin: 2px 0;
+  color: #536571;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }

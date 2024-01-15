@@ -2,6 +2,7 @@ import React from "react";
 import * as FaIcons from "react-icons/fa";
 import * as AiIcons from "react-icons/ai";
 import * as IoIcons from "react-icons/io";
+import * as luIcons from "react-icons/lu";
 
 export const SidebarData = [
   {
@@ -49,7 +50,7 @@ export const SidebarData = [
   {
     title: "More",
     path: "/more",
-    icon: <IoIcons.IoMdMore />,
+    icon: <luIcons.LuMoreHorizontal />,
     cName: "nav-text",
   },
 ];
