@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./footer.css";
 import { SearchBar } from "../searchBar/SearchBar";
+import { LuMoreHorizontal } from "react-icons/lu";
 import { SearchResultsList } from "../SearchResults/SearchResultsList";
 
 function Footer() {
@@ -53,7 +54,7 @@ function Footer() {
           </div>
         </div>
       </div>
-      <div className="bg-light d-flex overflow-hidden footer-content footer-border w-full br-16 mb-16">
+      <div className="d-flex overflow-hidden footer-content w-full br-16 mb-16">
         <nav className="px-3">
           <a className="links" href="https://twitter.com/en/tos">
             Terms of Service
@@ -81,6 +82,7 @@ function Footer() {
           </a>
           <a className="links" href="#">
             More
+            <LuMoreHorizontal />
           </a>
           <span>@2024 X Corp</span>
         </nav>
