@@ -54,7 +54,7 @@ function Footer() {
           </div>
         </div>
       </div>
-      <div className="bg-light d-flex overflow-hidden footer-content footer-border w-full br-16 mb-16">
+      <div className="d-flex overflow-hidden footer-content w-full br-16 mb-16">
         <nav className="px-3">
           <a className="links" href="https://twitter.com/en/tos">
             Terms of Service
