@@ -19,20 +19,15 @@ function Footer() {
           <SearchBar setResults={setResults} />
           <SearchResultsList results={results} />
         </div>
+        <div id="premium-section" className="bg-light m-2 premium-notification">
+          premium notification
+        </div>
       </div>
     </div>
   );
 }
 
 export default Footer;
-
-//  <input
-//    type="search"
-//    class="search"
-//    placeholder="Search"
-//    onChange={handleChange}
-//    value={searchInput}
-//  />;
 
 // <div id="premium-section" className="bg-light m-2">
 //       //   premium notification

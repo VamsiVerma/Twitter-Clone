@@ -41,9 +41,11 @@ export const SearchBar = ({ setResults }) => {
         value={input}
         onChange={(e) => handleChange(e.target.value)}
       />
-      <span className="clear" onClick={handleClear}>
-        <AiFillCloseCircle id="close-icon" />
-      </span>
+      {input && (
+        <span className="clear" onClick={handleClear}>
+          <AiFillCloseCircle id="close-icon" />
+        </span>
+      )}
     </div>
   );
 };

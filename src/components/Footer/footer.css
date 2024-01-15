@@ -1,4 +1,9 @@
 .search-bar-container {
   text-align: center;
   width: 336px;
+  z-index: 5;
+}
+
+.premium-notification {
+  position: fixed;
 }
