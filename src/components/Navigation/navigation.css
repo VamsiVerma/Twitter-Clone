@@ -11,8 +11,6 @@
   align-items: center;
   justify-content: center;
   font-size: 3rem;
-  background-color: #000;
-  color: #fff;
 }
 
 /* Navbar CSS */
@@ -34,7 +32,7 @@
 
 .nav-menu {
   background-color: #ffffff;
-  width: 250px;
+  width: 18%;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -89,7 +87,7 @@
 }
 
 span {
-  margin-left: 16px;
+  margin-left: 8px;
 }
 
 .post-btn {

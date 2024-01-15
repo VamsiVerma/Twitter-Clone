@@ -1,0 +1,13 @@
+.home {
+  margin: 0 10px 10px 16%;
+}
+
+#newsfeed {
+  flex-basis: 60%;
+  height: 100%;
+}
+
+#footer {
+  flex-basis: 40%;
+  height: 100%;
+}
