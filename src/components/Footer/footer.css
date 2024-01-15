@@ -7,23 +7,34 @@ span,
   margin-left: 0;
 }
 
+.w-full {
+  width: 80%;
+}
+
+.br-16 {
+  border-radius: 16px;
+}
+
+.p-16 {
+  padding: 16px 12px;
+}
+
 .footer-border {
   border: 2px solid #f7f9f9;
+}
+.mb-16 {
+  margin-bottom: 16px;
 }
 
 .search-bar-container {
   text-align: center;
   width: 360px;
   top: 0;
-  margin-bottom: 16px;
   z-index: 5;
 }
 
 .premium-notification {
-  position: absolute;
-  top: 86px;
-  border-radius: 16px;
-  width: 24%;
+  position: relative;
 }
 
 .spheading {
@@ -32,7 +43,6 @@ span,
 }
 
 .sp-container {
-  padding: 16px 12px;
   align-items: flex-start;
   gap: 10px;
 }
@@ -53,4 +63,32 @@ span,
   font: 700 15px/20px Helvetica, Arial, sans-serif;
   border: 0 solid black;
   background-color: rgb(15, 20, 25);
+}
+
+.happening {
+  position: relative;
+  max-height: 500px;
+  height: auto;
+}
+
+.follow-section {
+  position: relative;
+  max-height: 280px;
+  height: auto;
+}
+
+.footer-content {
+  font: 400 13px/16px Helvetica, Arial, sans-serif;
+  color: #536571;
+}
+
+.links {
+  padding-right: 12px;
+  margin: 2px 0;
+  color: #536571;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
